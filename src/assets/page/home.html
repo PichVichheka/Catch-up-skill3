@@ -3,9 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>John Smith Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style></style>
   </head>
-  <body>
-    <h1>lyka</h1>
+  <body class="min-h-screen flex flex-col stripes">
+    <header class="w-full p-4 flex justify-between items-center">
+      <div class="text-lg font-bold border border-gray-300 px-2 py-1">J</div>
+      <nav class="flex space-x-6">
+        <a
+          href="about.html"
+          class="text-black-600 hover:text-gray-900 font-bold"
+          >about</a
+        >
+        <a
+          href="experience.html"
+          class="text-black-600 hover:text-gray-900 font-bold"
+          >experience</a
+        >
+        <a
+          href="project.html"
+          class="text-black-600 hover:text-gray-900 font-bold"
+          >project</a
+        >
+        <a
+          href="contact.html"
+          class="text-black-600 hover:text-gray-900 font-bold"
+          >contact</a
+        >
+      </nav>
+      <div class="flex space-x-4">
+        <a href="#" class="text-black-600 hover:text-gray-900">Resume</a>
+        <a href="#" class="text-black-600 hover:text-gray-900">Hire Me</a>
+      </div>
+    </header>
+    <main
+      class="flex-grow flex flex-col justify-center items-center text-center"
+    >
+      <h1 class="text-5xl font-bold text-gray-800 mb-4">Hi, I'm John Smith</h1>
+      <p class="text-xl text-gray-600">I design and build things.</p>
+    </main>
   </body>
 </html>
