@@ -1,2 +1,2 @@
 # Catch-up-skill3
-#clon :
+#clon : https://github.com/PichVichheka/Catch-up-skill3.git
